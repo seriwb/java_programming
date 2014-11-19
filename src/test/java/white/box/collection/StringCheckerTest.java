@@ -29,4 +29,14 @@ public class StringCheckerTest {
 		assertThat(checker.isSortedString("あいうえお", "おえういあ"), is(true));
 		assertThat(checker.isSortedString("アイアン", "メイデン"), is(false));
 	}
+	
+	@Test
+	public void testPermuation() {
+		StringChecker checker = new StringChecker();
+		assertThat(checker.permuation("hoho", "hoho"), is(true));
+		assertThat(checker.permuation("hoho", "hohoho"), is(false));
+		char c = 'c';
+		int[] i = new int[c];
+		System.out.println(i.length);	// -> 99
+	}
 }
