@@ -11,3 +11,8 @@ Strings and Collections programming.
 ### white.box.reflection
 
 this code requires JDK 1.8.
+
+
+# License
+
+MIT License
